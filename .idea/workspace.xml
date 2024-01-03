@@ -1,11 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c68608f2-d121-4f2b-8c63-359ca36c3731" name="Changes" comment="" />
+    <list default="true" id="c68608f2-d121-4f2b-8c63-359ca36c3731" name="Changes" comment="">
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PACKAGES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PACKAGES.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/CLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/CLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/DLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/Main.java" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PACKAGES.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/CLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/DLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/LL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/LinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/COLLECTION_FRAMEWRKS/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/ENUMERATIONS/EnumInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/ENUMERATIONS/enums1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/ExceptionHandling/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/ExceptionHandling/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/ExceptionHandling/ExceptionH1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/ExceptionHandling/MainEmployee_Clonning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/Generics/CustomGenericArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/Generics/InterfaceWithGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/Generics/MainInterfaceWithGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/Generics/MainObjectComparision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/Generics/StudentObjectComparision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/Generics/WildCardExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/LambdaFunc/lambda1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/AbstractEx1/Daughter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/AbstractEx1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/AbstractEx1/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/AbstractEx1/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/BoxPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/BoxWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/CircleDiameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/CircleRadius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/Brake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/BrandNew_Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/DVDplayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/Electric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/FuelEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/NestedInterface/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/extend_Interfaces/M.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/extend_Interfaces/MNclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/INTERFACES/extend_Interfaces/N.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/package1/accessControl/Access.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/package1/accessControl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/package1/accessControl/SubAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/package2/AcessModMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/polymorphism/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/polymorphism/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/polymorphism/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/polymorphism/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/polymorphism/StaticPolymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/polymorphism/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/singleton_class/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/staticExample/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/staticExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/staticExample2/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/staticExample2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/murtaza/staticExample3/InnerClassasStatic.java" afterDir="false" />
+>>>>>>> Stashed changes
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+<<<<<<< Updated upstream
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+>>>>>>> Stashed changes
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XYs66PDHj5U820w8f9t3Z0DBvY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,12 +108,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< Updated upstream
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.CustomGenericArrayList">
+    <configuration name="CustomGenericArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.murtaza.Generics.CustomGenericArrayList" />
+      <module name="PACKAGES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murtaza.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.murtaza.COLLECTION_FRAMEWRKS.LinkedList.Main" />
+      <module name="PACKAGES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murtaza.COLLECTION_FRAMEWRKS.LinkedList.*" />
+=======
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.murtaza.Generics" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.murtaza.inheritance.Box" />
+      <module name="PACKAGES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murtaza.inheritance.*" />
+>>>>>>> Stashed changes
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+<<<<<<< Updated upstream
+        <item itemvalue="Application.CustomGenericArrayList" />
+        <item itemvalue="Application.Main" />
+=======
+        <item itemvalue="Application.Box" />
+>>>>>>> Stashed changes
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +185,34 @@
       <updated>1698817171472</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/murtaza/inheritance/Main.java</url>
+          <line>3</line>
+          <properties class="com.murtaza.inheritance.Main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/murtaza/Generics/CustomGenericArrayList.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/murtaza/ENUMERATIONS/enums1.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

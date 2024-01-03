@@ -1,4 +1,8 @@
-package com.murtaza.LinkedList;
+package com.murtaza.COLLECTION_FRAMEWRKS.LinkedList;
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
 
 public class DLL {
     private Node head; // Node has to be created as a class inside this class
@@ -14,7 +18,7 @@ public class DLL {
     public void insertFirst(int val){
         Node node = new Node(val);
         node.next = head;
-        if(head != null){
+        if(head != null){ // MANDATORY COND. in DLL bcz the head.prev will only point to the node, if and only if, while inserting the newNode the DLL is not empty.. (If it is empty then it clearly indicates that head is pointng to null (before inserting new node)). That is why it would be of no use of this stamnt: "head.prev=node" bcz in this case (head.prev == null.prev --> NONENSENSE)
             head.prev = node;
         }
         head = node; // head will now point to the new node
@@ -28,7 +32,6 @@ public class DLL {
         if(head == null){
             head = new_node;
         }
-
         Node temp_tail = head;
 
         while(temp_tail.next != null){
@@ -58,7 +61,7 @@ public class DLL {
         // Call the funcion that has found out the node with a value that you want before the new node you want to insert
         Node pr = findBefore(after);
 
-        if(pr == null) { // what if the node is not present only.. then what will you do.. obviously below execution is like a waste.. so better give a base cond.
+        if(pr == null) { // what if the node is not present only.. then what will you do.. obviously above execution is like a waste.. so better give a base cond.
             System.out.println("Node not found");
             return;
         }
@@ -78,15 +81,15 @@ public class DLL {
         while(temp_node != null){ // if youre running this loop without actually inserting the nodes in LL, so obivious by fault temp_node would be NULL logically
 
             System.out.print(temp_node.value + " -> ");
-            tail = temp_node;
+            tail = temp_node;     //***// this defining is imp bcz then only you can create a temp pointer in place of this tail in further task where we need to print ll in reverse to show that its DLL
             temp_node = temp_node.next;
         }
         System.out.println("END");
         System.out.println("Display List in Reverse order"); // Bcz we need to show that thi is the DLL bro
         // now we are goin to print in reverse order
         // make use of tail now : (tail is not null), untill then, print the previous nodes..
-        Node last = tail;
-        while(last != null){ // bcz at some point last (tail) will also bcm null at the either side reverse side.. so for that this cond is imp
+        Node last = tail;  //***//
+        while(last != null){ // bcz at some point last (tail) will also bcm null at the either side reverse side AS DLL HAS NULL AT BOTH ENDS OF THE LL.. so for that this cond is imp
             System.out.print(last.value+ " -> ");
             last = last.prev;
         }

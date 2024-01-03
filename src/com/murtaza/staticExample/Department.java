@@ -1,4 +1,4 @@
-package com.murtaza;
+package com.murtaza.staticExample;
 
 public class Department {
     // instance variables

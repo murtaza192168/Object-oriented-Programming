@@ -1,16 +1,17 @@
 package com.murtaza.Generics;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class CustomGenericArrayList<T> {
+// your own custom class of Number
+public class WildCardExample<T extends Number> { // here T should be either Number or its subclasses
     // instance vars
     private Object[] array;
     private int size = 0; // size for actually fot those elements which would be inserted using add() method
     private static int DEFAULT_SIZE = 5;// default size of an array // static: bcz this default size is not dependent on the object of the class
 
     // Default constructor to initialize the instance variable (array)
-    public CustomGenericArrayList(){
+    public WildCardExample(){
         array = new Object[DEFAULT_SIZE]; //[0,0,0,0,0]
     }
 
@@ -61,6 +62,17 @@ public class CustomGenericArrayList<T> {
         return removed;
     }
 
+
+    // method: Actual WildCard example
+//    public void getList(List<Number> arr_list){
+//        // here you can only pass list of type Number and not its subclasses type
+//        // perform something
+//    }
+
+    //but here you can extend the Number class and can pass its subclass type
+    public void getList(List<? extends Number> arr_list){
+        // perform something
+    }
     @Override
     public String toString() {
         return "CustomArrayList{" +
@@ -97,8 +109,8 @@ public class CustomGenericArrayList<T> {
 
         // Custom Generic Array list object
 
-        CustomGenericArrayList arrayList = new CustomGenericArrayList();
-        for(int i=0; i< 25; i++){
+        WildCardExample<Integer> arrayList = new WildCardExample(); // wildcard <Number> is a class
+        for(int i=0; i< 25; i++){                                   // Integer, Float, Double, Long are all subclasses of class Number
             arrayList.add(i*2);
         }
         System.out.println(arrayList);

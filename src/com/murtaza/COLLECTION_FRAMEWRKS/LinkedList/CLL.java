@@ -1,4 +1,4 @@
-package com.murtaza.LinkedList;
+package com.murtaza.COLLECTION_FRAMEWRKS.LinkedList;
 
 public class CLL {
     private Node tail;

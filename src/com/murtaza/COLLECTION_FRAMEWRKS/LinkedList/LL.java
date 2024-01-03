@@ -1,4 +1,4 @@
-package com.murtaza.LinkedList;
+package com.murtaza.COLLECTION_FRAMEWRKS.LinkedList;
 
 public class LL {
     // node head and node tail
@@ -21,7 +21,7 @@ public class LL {
         head = node;
 
         if(tail == null){ // if ll has only an element
-            tail = head;
+            tail = head; // tail will point at the node where head is pointing to.. indicating that theres only on node in LL
         }
         size += 1;
     }
@@ -29,7 +29,6 @@ public class LL {
     public void insertAtEnd(int val){
         if(tail == null){
             insertFirst(val);
-            return;
         }
         else{
             Node node = new Node(val);
@@ -46,20 +45,20 @@ public class LL {
         }
         if(index == size){
             insertAtEnd(val);
-            return; // since this method is created at the last of the program therefore it is not necessary to write return
+            return; //
         }
         Node temp = head; // since this node is been given to the first index(0).. therefore start your for loop from 1
         for(int i = 1; i <= index - 1; i++){
             temp = temp.next;
         }
         // Now create a new node to be inserted
-        Node node = new Node(val, temp.next); // just draw ll and see analyze how is it working ..only then you will understand
+        Node node = new Node(val, temp.next); // index // just draw ll and see analyze how is it working ..only then you will understand
         temp.next = node;
         size += 1;
     }
     // DELETE FROM FIRST INDEX
     public int deleteFirst(){
-       int val =  head.value;
+       int val =  head.value;  // bcz you want to return a value that is being deleted. So obvio you will store that current head value in that variable and then will move the pointr ahead
        head = head.next;
        if(head == null){
            tail = null;
@@ -89,7 +88,7 @@ public class LL {
         if(index == size -1 ){
             return deleteEnd();
         }
-        Node prev = get(index - 1);
+        Node prev = get(index - 1); // get the node at (index-1)
         // the value that has to be deleted and returned from this function, build that:
         int val = prev.next.value;
         prev.next = prev.next.next;
@@ -99,7 +98,7 @@ public class LL {
     }
     public Node get(int index){ // We implemented this getMethod as we dont have any concept of node.prev just like node.next.. that is why
         Node temp_node = head;
-        for(int i=0; i<index; i++) { // Iterate this loop till the index (that is prior to the node to be deleted)
+        for(int i=0; i<=index-1; i++) { // Iterate this loop till the index (that is prior to the node to be deleted)
             temp_node = temp_node.next;
         }
         return temp_node;

@@ -3,24 +3,25 @@ package com.murtaza.Generics;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class CustomGenericArrayList<T> { // T is generic type
+// Constructing our own ArrayList : Custom
+public class CustomArrayList {
     // instance vars
-    private Object[] array; // Object is the destination type
+    private int[] array;
     private int size = 0; // size for actually fot those elements which would be inserted using add() method
-    private static int DEFAULT_SIZE = 5;// default size of an array // static: bcz this default size is not dependent on the object of the class
+    private static final int DEFAULT_SIZE = 5;// default size of an array // static: bcz this default size is not dependent on the object of the class
 
     // Default constructor to initialize the instance variable (array)
-    public CustomGenericArrayList(){
-        array = new Object[DEFAULT_SIZE]; //[0,0,0,0,0]
+    public CustomArrayList(){
+        this.array = new int[DEFAULT_SIZE]; //{,0,0,0,0}
     }
 
     //method: add(parameter)
-    public void add(T num){
+    public void add(int num){
 
-        if(isFull()){
-            resize();
-        }
-        array[size++] = num;
+       if(isFull()){
+           resize();
+       }
+       array[size++] = num;
     }
     // method: isFull()
     public boolean isFull(){
@@ -29,7 +30,7 @@ public class CustomGenericArrayList<T> { // T is generic type
     // method: resize()
     public void resize(){
         // first temporary array to copy all new elements
-        Object[] temp = new Object[array.length * 2]; // new array will be double the size of the previous one
+        int[] temp = new int[array.length * 2]; // new array will be double the size of the previous one
         for(int i=0; i<array.length; i++){
             temp[i] = array[i];
         }
@@ -41,15 +42,14 @@ public class CustomGenericArrayList<T> { // T is generic type
         return size;
     }
     //method: get()
-    public T get(int index){
-        return (T)array[index]; // or > return array[index] // type-casting
-        // bigger type compressed to smaller.. bcz returntype of func is type of Generic
-
+    public int get(int index){ // fetch the element by its index
+        int value = array[index]; // or > return array[index]
+        return value;
     }
 
     // method: set(index, value)
-    public void set(int index, T value){
-        array[index] = (T)value; // casted
+    public void set(int index, int value){
+        array[index] = value;
     }
 
     public boolean isEmpty(){
@@ -57,8 +57,8 @@ public class CustomGenericArrayList<T> { // T is generic type
     }
     //method: remove();
 
-    public T remove(){
-        T removed = (T)array[--size]; // casted
+    public int remove(){
+        int removed = array[--size]; // pre-decrement
         return removed;
     }
 
@@ -71,12 +71,15 @@ public class CustomGenericArrayList<T> { // T is generic type
     }
 
     public static void main(String[] args) {
-//        ArrayList<Integer> list = new ArrayList();
+//        ArrayList list = new ArrayList();
 //        list.add(23);
 //        list.add(8);
 //        list.add(9);
 //        list.set(2, 44);
 //        System.out.println(list);
+
+        CustomArrayList arrayList = new CustomArrayList();
+
 
 //        arrayList.add(22);
 //        arrayList.add(23);
@@ -93,15 +96,7 @@ public class CustomGenericArrayList<T> { // T is generic type
 //        int removed = arrayList.remove();
 //        arrayList.set(5, 11);
 
-//        System.out.println(arrayList.toString());
-//        System.out.println(arrayList.isEmpty());
-
-        // Custom Generic Array list object
-
-        CustomGenericArrayList<Integer> arrayList = new CustomGenericArrayList();
-        for(int i=0; i< 25; i++){
-            arrayList.add(i*2);
-        }
-        System.out.println(arrayList);
+        System.out.println(arrayList.toString()); // not neded
+        System.out.println(arrayList.isEmpty());
     }
 }

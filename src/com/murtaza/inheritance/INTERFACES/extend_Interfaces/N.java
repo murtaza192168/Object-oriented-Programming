@@ -1,2 +1,6 @@
-package com.murtaza.inheritance.INTERFACES.extend_Interfaces;public interface N {
+package com.murtaza.inheritance.INTERFACES.extend_Interfaces;
+
+public interface N extends M{
+
+    void foo();
 }
