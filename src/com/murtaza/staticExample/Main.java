@@ -20,6 +20,9 @@ public class Main {
         System.out.println("I am non-static!");
         run(); // a non-static method called in nonstatic method.
                // So now, at the end while this s1 method will be called, you have to mention the object reference explicitly
+
+ 
+  s2(); // static member inside a non-static method works
     }
     public  static void s2(){
         System.out.println("I am Static");
