@@ -81,7 +81,7 @@ public class DLL {
         while(temp_node != null){ // if youre running this loop without actually inserting the nodes in LL, so obivious by fault temp_node would be NULL logically
 
             System.out.print(temp_node.value + " -> ");
-            tail = temp_node;     //***// this defining is imp bcz then only you can create a temp pointer in place of this tail in further task where we need to print ll in reverse to show that its DLL
+            tail = temp_node; // After every iteration, tail will be pointing to the node that would be entering the linkedlist.. so obviously if there is a last value that gets entered, tail pointer will stop there(as tail indicates  the last node)     //***// this defining is imp bcz then only you can create a temp pointer in place of this tail in further task where we need to print ll in reverse to show that its DLL
             temp_node = temp_node.next;
         }
         System.out.println("END");
